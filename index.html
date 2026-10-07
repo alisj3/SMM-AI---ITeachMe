@@ -103,7 +103,15 @@ nav a{font-size:14px;font-weight:600;text-decoration:none;color:var(--mut)}nav a
 /* steps */
 .sg{display:grid;gap:18px;margin-top:56px}
 .step .num{font-family:var(--d);font-weight:800;font-size:72px;letter-spacing:-.06em;line-height:1;color:var(--pur);margin-bottom:12px}
-.step .btn{margin-top:20px}
+.step .btn{
+  margin-top:20px;
+  width:100%;
+  min-height:58px;
+  justify-content:center;
+  padding:16px 28px;
+  font-size:17px;
+  font-weight:800;
+}
 
 /* faq */
 .fg{display:grid;gap:40px}
@@ -181,8 +189,7 @@ nav,.hcta{display:flex}.burger,.mob{display:none!important}
   <div>
    <span class="pill"><span class="ru">ОФ «ITeachMe»</span><span class="kz">«ITeachMe» ҚҚ</span></span>
    <h1><b>SMM</b><em>+AI</em></h1>
-   <p class="lead"><span class="ru">Бесплатный онлайн-курс по продвижению в соцсетях с искусственным интеллектом — 5 недель практики и сопровождение в трудоустройстве.</span><span class="kz">Жасанды интеллектпен әлеуметтік желілерде жылжыту бойынша тегін онлайн курс — 5 апталық практика және жұмысқа орналасуда қолдау.</span></p>
-   <div class="cta">
+    <p class="lead"><span class="ru">Бесплатный онлайн-курс по работе с социальными сетями и созданию контента с использованием искусственного интеллекта — 5 недель практики и сопровождение в трудоустройстве.</span><span class="kz">Жасанды интеллектті қолдана отырып, әлеуметтік желілермен жұмыс істеу және контент жасау бойынша тегін онлайн-курс — 5 апталық практика және жұмысқа орналасуда қолдау.</span></p>   <div class="cta">
     <a class="btn l" href="#steps"><span class="ru">Как подать заявку</span><span class="kz">Өтінім беру жолы</span> →</a>
     <a class="btn o" href="#program"><span class="ru">Смотреть программу</span><span class="kz">Бағдарламаны көру</span></a>
    </div>
@@ -209,7 +216,7 @@ nav,.hcta{display:flex}.burger,.mob{display:none!important}
 
 <section id="about" class="about">
  <div class="in">
-  <h2><span class="ru">О курсе</span><span class="kz">Курс туралы</span></h2>
+  <h2><span class="ru">О ПРОЕКТЕ</span><span class="kz">ЖОБА ТУРАЛЫ</span></h2>
   <p class="sub"><span class="ru">Вы за 5 недель соберёте реальный SMM-кейс для небольшого бизнеса и научитесь работать с ИИ как с помощником, а не вместо себя.</span><span class="kz">5 апта ішінде шағын бизнеске арналған нақты SMM-кейс жинап, ЖИ-мен өзіңіздің орныңызға емес, көмекші ретінде жұмыс істеуді үйренесіз.</span></p>
   <div class="ag">
    <div class="card c-lime a1"><div class="big">70%</div><h3><span class="ru">практики</span><span class="kz">практика</span></h3><p><span class="ru">Каждое занятие заканчивается заданием для вашего проекта.</span><span class="kz">Әр сабақ жобаңызға арналған тапсырмамен аяқталады.</span></p></div>
@@ -231,6 +238,18 @@ nav,.hcta{display:flex}.burger,.mob{display:none!important}
    <div class="card wk"><div class="n">3</div><div><h3><span class="ru">Тексты и визуал</span><span class="kz">Мәтін және визуал</span></h3><ul><li><span class="ru">Копирайтинг для соцсетей, стиль бренда</span><span class="kz">Әлеуметтік желі копирайтингі, бренд стилі</span></li><li><span class="ru">Дизайн постов и сторис в онлайн-редакторах</span><span class="kz">Онлайн редакторларда пост пен сторис дизайны</span></li></ul></div></div>
    <div class="card wk"><div class="n">4</div><div><h3><span class="ru">Видео, общение и продвижение</span><span class="kz">Бейне, қарым-қатынас және жылжыту</span></h3><ul><li><span class="ru">Сценарии коротких видео, работа с комментариями и директом</span><span class="kz">Қысқа бейне сценарийлері, пікір мен директпен жұмыс</span></li><li><span class="ru">Основы таргетированной рекламы</span><span class="kz">Таргеттелген жарнама негіздері</span></li></ul></div></div>
    <div class="card wk"><div class="n">5</div><div><h3><span class="ru">Аналитика и защита кейса</span><span class="kz">Талдау және кейсті қорғау</span></h3><ul><li><span class="ru">Метрики, отчёт, выводы и рекомендации</span><span class="kz">Метрикалар, есеп, қорытынды және ұсыныстар</span></li><li><span class="ru">Защита итогового SMM-кейса, оформление портфолио</span><span class="kz">Қорытынды SMM-кейсті қорғау, портфолио рәсімдеу</span></li></ul></div></div>
+  </div>
+ </div>
+</section>
+
+<section id="steps">
+ <div class="in">
+  <h2><span class="ru">Как попасть на курс</span><span class="kz">Курсқа қалай түсуге болады</span></h2>
+  <p class="sub"><span class="ru">Три простых шага</span><span class="kz">Үш қарапайым қадам</span></p>
+  <div class="sg">
+   <div class="card step s1"><div class="num">1</div><h3><span class="ru">Заполните анкету</span><span class="kz">Анкетаны толтырыңыз</span></h3><p><span class="ru">Расскажите о себе и напишите мотивационное письмо.</span><span class="kz">Өзіңіз туралы айтып, мотивациялық хат жазыңыз.</span></p><a class="btn l" href="https://forms.gle/LyPmUC8CP8bpn24q8" target="_blank" rel="noopener noreferrer"><span class="ru">Анкета →</span><span class="kz">Анкета →</span></a></div>
+   <div class="card step s2 c-soft"><div class="num">2</div><h3><span class="ru">Дождитесь ответа команды</span><span class="kz">Команданың жауабын күтіңіз</span></h3><p><span class="ru">Команда проекта свяжется с вами сама.</span><span class="kz">Жоба командасы өзі хабарласады.</span></p></div>
+   <div class="card step s3"><div class="num">3</div><h3><span class="ru">Начните обучение</span><span class="kz">Оқуды бастаңыз</span></h3><p><span class="ru">Подключайтесь к занятиям на выбранном языке.</span><span class="kz">Таңдаған тілде сабақтарға қосылыңыз.</span></p><a class="btn o" href="https://t.me/iteachme_selection" target="_blank" rel="noopener noreferrer"><span class="ru">Telegram →</span><span class="kz">Telegram →</span></a></div>
   </div>
  </div>
 </section>
@@ -261,18 +280,6 @@ nav,.hcta{display:flex}.burger,.mob{display:none!important}
    <div class="card j6"><h3><span class="ru">Бесплатно</span><span class="kz">Тегін</span></h3><p><span class="ru">Участие не требует оплаты.</span><span class="kz">Қатысу үшін төлем қажет емес.</span></p></div>
   </div>
   <div class="note"><span class="ru"><b>Важно:</b> трудоустройство не гарантируется автоматически — результат зависит от вашей активности и готовности.</span><span class="kz"><b>Маңызды:</b> жұмысқа орналасу автоматты түрде кепілдендірілмейді — нәтиже сіздің белсенділігіңіз бен дайындығыңызға байланысты.</span></div>
- </div>
-</section>
-
-<section id="steps">
- <div class="in">
-  <h2><span class="ru">Как попасть на курс</span><span class="kz">Курсқа қалай түсуге болады</span></h2>
-  <p class="sub"><span class="ru">Три простых шага</span><span class="kz">Үш қарапайым қадам</span></p>
-  <div class="sg">
-   <div class="card step s1"><div class="num">1</div><h3><span class="ru">Заполните анкету</span><span class="kz">Анкетаны толтырыңыз</span></h3><p><span class="ru">Расскажите о себе и напишите мотивационное письмо.</span><span class="kz">Өзіңіз туралы айтып, мотивациялық хат жазыңыз.</span></p><a class="btn l" href="#" data-todo="form"><span class="ru">Анкета →</span><span class="kz">Анкета →</span></a></div>
-   <div class="card step s2 c-soft"><div class="num">2</div><h3><span class="ru">Дождитесь ответа команды</span><span class="kz">Команданың жауабын күтіңіз</span></h3><p><span class="ru">Команда проекта свяжется с вами сама.</span><span class="kz">Жоба командасы өзі хабарласады.</span></p></div>
-   <div class="card step s3"><div class="num">3</div><h3><span class="ru">Начните обучение</span><span class="kz">Оқуды бастаңыз</span></h3><p><span class="ru">Подключайтесь к занятиям на выбранном языке.</span><span class="kz">Таңдаған тілде сабақтарға қосылыңыз.</span></p><a class="btn o" href="#" data-todo="tg"><span class="ru">Telegram →</span><span class="kz">Telegram →</span></a></div>
-  </div>
  </div>
 </section>
 
