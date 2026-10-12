@@ -62,7 +62,22 @@ nav a{font-size:14px;font-weight:600;text-decoration:none;color:var(--mut)}nav a
 .hero h1 em{display:inline-block;font-style:normal;background:var(--lime);color:#111;border:2px solid #111;border-radius:99px;padding:.02em .22em .08em;margin:.06em 0 0 .45em;transform:rotate(-4deg);box-shadow:8px 8px 0 #111}
 .lead{font-size:clamp(17px,2vw,21px);max-width:430px;position:relative;z-index:3}
 .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px;position:relative;z-index:3}
-.pill{display:inline-block;border:1.5px solid var(--ink);border-radius:99px;padding:6px 14px;font-size:13px;font-weight:700;background:var(--bg)}
+.pill-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.pill {
+  display: inline-block;
+  border: 1.5px solid var(--ink);
+  border-radius: 99px;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 700;
+  background: var(--bg);
+  text-align: center;
+}
 .stage{position:relative;min-height:470px}
 .orb{position:absolute;width:min(78vw,460px);aspect-ratio:1;border-radius:50%;background:var(--pur);right:-14%;top:0}
 .ring{position:absolute;width:min(60vw,340px);aspect-ratio:1;border-radius:50%;border:1.5px solid var(--ink);left:-6%;bottom:-4%}
@@ -345,9 +360,14 @@ nav,.hcta{display:flex}.burger,.mob{display:none!important}
 
 <main id="top">
 <section class="hero">
+  <div class="pill-wrapper">
+    <span class="pill">
+      <span class="ru">Проект реализуется ОФ «ITeachMe» при поддержке АО «Банк Развития Казахстана»</span>
+      <span class="kz">Жоба «ITeachMe» ҚҚ жүзеге асырады, «Қазақстанның Даму Банкі» АҚ қолдауымен</span>
+    </span>
+  </div>
  <div class="in hgrid">
   <div>
-   <span class="pill"><span class="ru">ОФ «ITeachMe»</span><span class="kz">«ITeachMe» ҚҚ</span></span>
    <h1><b>SMM</b><em>+AI</em></h1>
     <p class="lead"><span class="ru">Бесплатный онлайн-курс по работе с социальными сетями и созданию контента с использованием искусственного интеллекта — 5 недель практики и сопровождение в трудоустройстве.</span><span class="kz">Жасанды интеллектті қолдана отырып, әлеуметтік желілермен жұмыс істеу және контент жасау бойынша тегін онлайн-курс — 5 апталық практика және жұмысқа орналасуда қолдау.</span></p>   
     <div class="cta">
